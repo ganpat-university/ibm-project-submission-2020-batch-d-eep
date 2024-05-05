@@ -1,0 +1,9 @@
+Name: libpq
+Description: PostgreSQL libpq library
+Url: https://www.postgresql.org/
+Version: 13.3
+Requires: 
+Requires.private: 
+Cflags: -I/home/zapotek/arachni-build/arachni/.system/usr/include
+Libs: -L/home/zapotek/arachni-build/arachni/.system/usr/lib -lpq
+Libs.private: -L/home/zapotek/arachni-build/arachni/.system/usr/lib -lm

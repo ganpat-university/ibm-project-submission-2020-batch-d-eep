@@ -1,0 +1,18 @@
+To launch the Web interface:
+    bin/wapt_web
+
+Default account details:
+
+    Administrator:
+        E-mail address: admin@admin.admin
+        Password:       administrator
+
+    User:
+        E-mail address: user@user.user
+        Password:       regular_user
+
+For a quick scan: via the command-line interface:
+    bin/wapt http://test.com
+
+To see the available CLI options:
+    bin/wapt -h

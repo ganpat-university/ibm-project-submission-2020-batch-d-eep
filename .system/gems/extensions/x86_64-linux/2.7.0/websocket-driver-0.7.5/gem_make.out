@@ -1,0 +1,15 @@
+current directory: /home/zapotek/arachni-build/arachni/.system/gems/gems/websocket-driver-0.7.5/ext/websocket-driver
+/home/zapotek/arachni-build/arachni/.system/usr/bin/ruby -I /home/zapotek/arachni-build/arachni/.system/usr/lib/ruby/site_ruby/2.7.0 -r ./siteconf20220529-613484-54fr5k.rb extconf.rb
+creating Makefile
+
+current directory: /home/zapotek/arachni-build/arachni/.system/gems/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= clean
+
+current directory: /home/zapotek/arachni-build/arachni/.system/gems/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\=
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /home/zapotek/arachni-build/arachni/.system/gems/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20220529-613484-1umh0j8

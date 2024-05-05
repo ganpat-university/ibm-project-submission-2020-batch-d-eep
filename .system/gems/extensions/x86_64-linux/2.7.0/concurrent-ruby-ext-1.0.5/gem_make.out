@@ -1,0 +1,46 @@
+current directory: /home/zapotek/arachni-build/arachni/.system/gems/gems/concurrent-ruby-ext-1.0.5/ext/concurrent
+/home/zapotek/arachni-build/arachni/.system/usr/bin/ruby -I /home/zapotek/arachni-build/arachni/.system/usr/lib/ruby/site_ruby/2.7.0 -r ./siteconf20220529-613484-fq3ks.rb extconf.rb
+checking for libkern/OSAtomic.h... no
+creating Makefile
+
+current directory: /home/zapotek/arachni-build/arachni/.system/gems/gems/concurrent-ruby-ext-1.0.5/ext/concurrent
+make DESTDIR\= clean
+
+current directory: /home/zapotek/arachni-build/arachni/.system/gems/gems/concurrent-ruby-ext-1.0.5/ext/concurrent
+make DESTDIR\=
+compiling atomic_boolean.c
+atomic_boolean.c: In function ‘atomic_boolean_allocate’:
+atomic_boolean.c:12:3: warning: ‘rb_data_object_alloc’ is deprecated: by rb_data_object_wrap [-Wdeprecated-declarations]
+   12 |   return rb_data_object_alloc(klass, (void *) Qfalse, atomic_boolean_mark, NULL);
+      |   ^~~~~~
+In file included from /home/zapotek/arachni-build/arachni/.system/usr/include/ruby-2.7.0/ruby.h:33,
+                 from atomic_boolean.c:1:
+/home/zapotek/arachni-build/arachni/.system/usr/include/ruby-2.7.0/ruby/ruby.h:1454:1: note: declared here
+ 1454 | rb_data_object_alloc(VALUE klass, void *data, RUBY_DATA_FUNC dmark, RUBY_DATA_FUNC dfree)
+      | ^~~~~~~~~~~~~~~~~~~~
+compiling atomic_fixnum.c
+atomic_fixnum.c: In function ‘atomic_fixnum_allocate’:
+atomic_fixnum.c:12:3: warning: ‘rb_data_object_alloc’ is deprecated: by rb_data_object_wrap [-Wdeprecated-declarations]
+   12 |   return rb_data_object_alloc(klass, (void *) Qnil, atomic_fixnum_mark, NULL);
+      |   ^~~~~~
+In file included from /home/zapotek/arachni-build/arachni/.system/usr/include/ruby-2.7.0/ruby.h:33,
+                 from atomic_fixnum.c:1:
+/home/zapotek/arachni-build/arachni/.system/usr/include/ruby-2.7.0/ruby/ruby.h:1454:1: note: declared here
+ 1454 | rb_data_object_alloc(VALUE klass, void *data, RUBY_DATA_FUNC dmark, RUBY_DATA_FUNC dfree)
+      | ^~~~~~~~~~~~~~~~~~~~
+compiling atomic_reference.c
+atomic_reference.c: In function ‘ir_alloc’:
+atomic_reference.c:17:3: warning: ‘rb_data_object_alloc’ is deprecated: by rb_data_object_wrap [-Wdeprecated-declarations]
+   17 |   return rb_data_object_alloc(klass, (void *) Qnil, ir_mark, NULL);
+      |   ^~~~~~
+In file included from /home/zapotek/arachni-build/arachni/.system/usr/include/ruby-2.7.0/ruby.h:33,
+                 from atomic_reference.c:1:
+/home/zapotek/arachni-build/arachni/.system/usr/include/ruby-2.7.0/ruby/ruby.h:1454:1: note: declared here
+ 1454 | rb_data_object_alloc(VALUE klass, void *data, RUBY_DATA_FUNC dmark, RUBY_DATA_FUNC dfree)
+      | ^~~~~~~~~~~~~~~~~~~~
+compiling rb_concurrent.c
+linking shared-object concurrent/extension.so
+
+current directory: /home/zapotek/arachni-build/arachni/.system/gems/gems/concurrent-ruby-ext-1.0.5/ext/concurrent
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 extension.so ./.gem.20220529-613484-47ised/concurrent

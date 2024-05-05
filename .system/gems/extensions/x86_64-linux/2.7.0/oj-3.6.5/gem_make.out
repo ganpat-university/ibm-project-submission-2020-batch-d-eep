@@ -1,0 +1,179 @@
+current directory: /home/zapotek/arachni-build/arachni/.system/gems/gems/oj-3.6.5/ext/oj
+/home/zapotek/arachni-build/arachni/.system/usr/bin/ruby -I /home/zapotek/arachni-build/arachni/.system/usr/lib/ruby/site_ruby/2.7.0 -r ./siteconf20220529-613484-1967nej.rb extconf.rb
+>>>>> Creating Makefile for ruby version 2.7.5 on x86_64-linux <<<<<
+creating Makefile
+
+current directory: /home/zapotek/arachni-build/arachni/.system/gems/gems/oj-3.6.5/ext/oj
+make DESTDIR\= clean
+
+current directory: /home/zapotek/arachni-build/arachni/.system/gems/gems/oj-3.6.5/ext/oj
+make DESTDIR\=
+compiling cache8.c
+compiling circarray.c
+compiling code.c
+compiling compat.c
+compiling custom.c
+custom.c: In function ‘dump_hash’:
+custom.c:321:23: warning: passing argument 2 of ‘rb_hash_foreach’ from incompatible pointer type [-Wincompatible-pointer-types]
+  321 |  rb_hash_foreach(obj, hash_cb, (VALUE)out);
+      |                       ^~~~~~~
+      |                       |
+      |                       int (*)(VALUE,  VALUE,  struct _Out *) {aka int (*)(long unsigned int,  long unsigned int,  struct _Out *)}
+In file included from /home/zapotek/arachni-build/arachni/.system/usr/include/ruby-2.7.0/ruby/ruby.h:2150,
+                 from /home/zapotek/arachni-build/arachni/.system/usr/include/ruby-2.7.0/ruby.h:33,
+                 from code.h:9,
+                 from custom.c:8:
+/home/zapotek/arachni-build/arachni/.system/usr/include/ruby-2.7.0/ruby/intern.h:558:29: note: expected ‘int (*)(VALUE,  VALUE,  VALUE)’ {aka ‘int (*)(long unsigned int,  long unsigned int,  long unsigned int)’} but argument is of type ‘int (*)(VALUE,  VALUE,  struct _Out *)’ {aka ‘int (*)(long unsigned int,  long unsigned int,  struct _Out *)’}
+  558 | void rb_hash_foreach(VALUE, int (*)(VALUE, VALUE, VALUE), VALUE);
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+custom.c: In function ‘dump_obj_attrs’:
+custom.c:636:26: warning: passing argument 2 of ‘rb_ivar_foreach’ from incompatible pointer type [-Wincompatible-pointer-types]
+  636 |     rb_ivar_foreach(obj, dump_attr_cb, (VALUE)out);
+      |                          ^~~~~~~~~~~~
+      |                          |
+      |                          int (*)(ID,  VALUE,  struct _Out *) {aka int (*)(long unsigned int,  long unsigned int,  struct _Out *)}
+In file included from /home/zapotek/arachni-build/arachni/.system/usr/include/ruby-2.7.0/ruby/ruby.h:2150,
+                 from /home/zapotek/arachni-build/arachni/.system/usr/include/ruby-2.7.0/ruby.h:33,
+                 from code.h:9,
+                 from custom.c:8:
+/home/zapotek/arachni-build/arachni/.system/usr/include/ruby-2.7.0/ruby/intern.h:986:29: note: expected ‘int (*)(ID,  VALUE,  st_data_t)’ {aka ‘int (*)(long unsigned int,  long unsigned int,  long unsigned int)’} but argument is of type ‘int (*)(ID,  VALUE,  struct _Out *)’ {aka ‘int (*)(long unsigned int,  long unsigned int,  struct _Out *)’}
+  986 | void rb_ivar_foreach(VALUE, int (*)(ID, VALUE, st_data_t), st_data_t);
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compiling dump.c
+compiling dump_compat.c
+dump_compat.c: In function ‘dump_hash’:
+dump_compat.c:731:23: warning: passing argument 2 of ‘rb_hash_foreach’ from incompatible pointer type [-Wincompatible-pointer-types]
+  731 |  rb_hash_foreach(obj, hash_cb, (VALUE)out);
+      |                       ^~~~~~~
+      |                       |
+      |                       int (*)(VALUE,  VALUE,  struct _Out *) {aka int (*)(long unsigned int,  long unsigned int,  struct _Out *)}
+In file included from /home/zapotek/arachni-build/arachni/.system/usr/include/ruby-2.7.0/ruby/ruby.h:2150,
+                 from /home/zapotek/arachni-build/arachni/.system/usr/include/ruby-2.7.0/ruby.h:33,
+                 from code.h:9,
+                 from dump_compat.c:6:
+/home/zapotek/arachni-build/arachni/.system/usr/include/ruby-2.7.0/ruby/intern.h:558:29: note: expected ‘int (*)(VALUE,  VALUE,  VALUE)’ {aka ‘int (*)(long unsigned int,  long unsigned int,  long unsigned int)’} but argument is of type ‘int (*)(VALUE,  VALUE,  struct _Out *)’ {aka ‘int (*)(long unsigned int,  long unsigned int,  struct _Out *)’}
+  558 | void rb_hash_foreach(VALUE, int (*)(VALUE, VALUE, VALUE), VALUE);
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compiling dump_leaf.c
+compiling dump_object.c
+dump_object.c: In function ‘dump_hash_class’:
+dump_object.c:321:23: warning: passing argument 2 of ‘rb_hash_foreach’ from incompatible pointer type [-Wincompatible-pointer-types]
+  321 |  rb_hash_foreach(obj, hash_cb, (VALUE)out);
+      |                       ^~~~~~~
+      |                       |
+      |                       int (*)(VALUE,  VALUE,  struct _Out *) {aka int (*)(long unsigned int,  long unsigned int,  struct _Out *)}
+In file included from /home/zapotek/arachni-build/arachni/.system/usr/include/ruby-2.7.0/ruby/ruby.h:2150,
+                 from /home/zapotek/arachni-build/arachni/.system/usr/include/ruby-2.7.0/ruby.h:33,
+                 from dump.h:9,
+                 from dump_object.c:6:
+/home/zapotek/arachni-build/arachni/.system/usr/include/ruby-2.7.0/ruby/intern.h:558:29: note: expected ‘int (*)(VALUE,  VALUE,  VALUE)’ {aka ‘int (*)(long unsigned int,  long unsigned int,  long unsigned int)’} but argument is of type ‘int (*)(VALUE,  VALUE,  struct _Out *)’ {aka ‘int (*)(long unsigned int,  long unsigned int,  struct _Out *)’}
+  558 | void rb_hash_foreach(VALUE, int (*)(VALUE, VALUE, VALUE), VALUE);
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+dump_object.c: In function ‘dump_obj_attrs’:
+dump_object.c:605:23: warning: passing argument 2 of ‘rb_ivar_foreach’ from incompatible pointer type [-Wincompatible-pointer-types]
+  605 |  rb_ivar_foreach(obj, dump_attr_cb, (VALUE)out);
+      |                       ^~~~~~~~~~~~
+      |                       |
+      |                       int (*)(ID,  VALUE,  struct _Out *) {aka int (*)(long unsigned int,  long unsigned int,  struct _Out *)}
+In file included from /home/zapotek/arachni-build/arachni/.system/usr/include/ruby-2.7.0/ruby/ruby.h:2150,
+                 from /home/zapotek/arachni-build/arachni/.system/usr/include/ruby-2.7.0/ruby.h:33,
+                 from dump.h:9,
+                 from dump_object.c:6:
+/home/zapotek/arachni-build/arachni/.system/usr/include/ruby-2.7.0/ruby/intern.h:986:29: note: expected ‘int (*)(ID,  VALUE,  st_data_t)’ {aka ‘int (*)(long unsigned int,  long unsigned int,  long unsigned int)’} but argument is of type ‘int (*)(ID,  VALUE,  struct _Out *)’ {aka ‘int (*)(long unsigned int,  long unsigned int,  struct _Out *)’}
+  986 | void rb_ivar_foreach(VALUE, int (*)(ID, VALUE, st_data_t), st_data_t);
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compiling dump_strict.c
+dump_strict.c: In function ‘dump_hash’:
+dump_strict.c:284:23: warning: passing argument 2 of ‘rb_hash_foreach’ from incompatible pointer type [-Wincompatible-pointer-types]
+  284 |  rb_hash_foreach(obj, hash_cb, (VALUE)out);
+      |                       ^~~~~~~
+      |                       |
+      |                       int (*)(VALUE,  VALUE,  struct _Out *) {aka int (*)(long unsigned int,  long unsigned int,  struct _Out *)}
+In file included from /home/zapotek/arachni-build/arachni/.system/usr/include/ruby-2.7.0/ruby/ruby.h:2150,
+                 from /home/zapotek/arachni-build/arachni/.system/usr/include/ruby-2.7.0/ruby.h:33,
+                 from dump.h:9,
+                 from dump_strict.c:14:
+/home/zapotek/arachni-build/arachni/.system/usr/include/ruby-2.7.0/ruby/intern.h:558:29: note: expected ‘int (*)(VALUE,  VALUE,  VALUE)’ {aka ‘int (*)(long unsigned int,  long unsigned int,  long unsigned int)’} but argument is of type ‘int (*)(VALUE,  VALUE,  struct _Out *)’ {aka ‘int (*)(long unsigned int,  long unsigned int,  struct _Out *)’}
+  558 | void rb_hash_foreach(VALUE, int (*)(VALUE, VALUE, VALUE), VALUE);
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compiling err.c
+compiling fast.c
+compiling hash.c
+compiling hash_test.c
+compiling mimic_json.c
+compiling object.c
+compiling odd.c
+compiling oj.c
+oj.c: In function ‘oj_parse_opt_match_string’:
+oj.c:751:21: warning: passing argument 2 of ‘rb_hash_foreach’ from incompatible pointer type [-Wincompatible-pointer-types]
+  751 |  rb_hash_foreach(v, match_string_cb, (VALUE)rc);
+      |                     ^~~~~~~~~~~~~~~
+      |                     |
+      |                     int (*)(VALUE,  VALUE,  struct _RxClass *) {aka int (*)(long unsigned int,  long unsigned int,  struct _RxClass *)}
+In file included from /home/zapotek/arachni-build/arachni/.system/usr/include/ruby-2.7.0/ruby/ruby.h:2150,
+                 from /home/zapotek/arachni-build/arachni/.system/usr/include/ruby-2.7.0/ruby.h:33,
+                 from oj.h:18,
+                 from oj.c:14:
+/home/zapotek/arachni-build/arachni/.system/usr/include/ruby-2.7.0/ruby/intern.h:558:29: note: expected ‘int (*)(VALUE,  VALUE,  VALUE)’ {aka ‘int (*)(long unsigned int,  long unsigned int,  long unsigned int)’} but argument is of type ‘int (*)(VALUE,  VALUE,  struct _RxClass *)’ {aka ‘int (*)(long unsigned int,  long unsigned int,  struct _RxClass *)’}
+  558 | void rb_hash_foreach(VALUE, int (*)(VALUE, VALUE, VALUE), VALUE);
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compiling parse.c
+compiling rails.c
+rails.c: In function ‘dump_obj_attrs’:
+rails.c:130:26: warning: passing argument 2 of ‘rb_ivar_foreach’ from incompatible pointer type [-Wincompatible-pointer-types]
+  130 |     rb_ivar_foreach(obj, dump_attr_cb, (VALUE)out);
+      |                          ^~~~~~~~~~~~
+      |                          |
+      |                          int (*)(ID,  VALUE,  struct _Out *) {aka int (*)(long unsigned int,  long unsigned int,  struct _Out *)}
+In file included from /home/zapotek/arachni-build/arachni/.system/usr/include/ruby-2.7.0/ruby/ruby.h:2150,
+                 from /home/zapotek/arachni-build/arachni/.system/usr/include/ruby-2.7.0/ruby.h:33,
+                 from dump.h:9,
+                 from rails.h:9,
+                 from rails.c:6:
+/home/zapotek/arachni-build/arachni/.system/usr/include/ruby-2.7.0/ruby/intern.h:986:29: note: expected ‘int (*)(ID,  VALUE,  st_data_t)’ {aka ‘int (*)(long unsigned int,  long unsigned int,  long unsigned int)’} but argument is of type ‘int (*)(ID,  VALUE,  struct _Out *)’ {aka ‘int (*)(long unsigned int,  long unsigned int,  struct _Out *)’}
+  986 | void rb_ivar_foreach(VALUE, int (*)(ID, VALUE, st_data_t), st_data_t);
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+rails.c: In function ‘dump_hash’:
+rails.c:1382:23: warning: passing argument 2 of ‘rb_hash_foreach’ from incompatible pointer type [-Wincompatible-pointer-types]
+ 1382 |  rb_hash_foreach(obj, hash_cb, (VALUE)out);
+      |                       ^~~~~~~
+      |                       |
+      |                       int (*)(VALUE,  VALUE,  struct _Out *) {aka int (*)(long unsigned int,  long unsigned int,  struct _Out *)}
+In file included from /home/zapotek/arachni-build/arachni/.system/usr/include/ruby-2.7.0/ruby/ruby.h:2150,
+                 from /home/zapotek/arachni-build/arachni/.system/usr/include/ruby-2.7.0/ruby.h:33,
+                 from dump.h:9,
+                 from rails.h:9,
+                 from rails.c:6:
+/home/zapotek/arachni-build/arachni/.system/usr/include/ruby-2.7.0/ruby/intern.h:558:29: note: expected ‘int (*)(VALUE,  VALUE,  VALUE)’ {aka ‘int (*)(long unsigned int,  long unsigned int,  long unsigned int)’} but argument is of type ‘int (*)(VALUE,  VALUE,  struct _Out *)’ {aka ‘int (*)(long unsigned int,  long unsigned int,  struct _Out *)’}
+  558 | void rb_hash_foreach(VALUE, int (*)(VALUE, VALUE, VALUE), VALUE);
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compiling reader.c
+compiling resolve.c
+compiling rxclass.c
+compiling saj.c
+compiling scp.c
+compiling sparse.c
+compiling stream_writer.c
+compiling strict.c
+compiling string_writer.c
+compiling trace.c
+compiling val_stack.c
+compiling wab.c
+wab.c: In function ‘dump_hash’:
+wab.c:183:23: warning: passing argument 2 of ‘rb_hash_foreach’ from incompatible pointer type [-Wincompatible-pointer-types]
+  183 |  rb_hash_foreach(obj, hash_cb, (VALUE)out);
+      |                       ^~~~~~~
+      |                       |
+      |                       int (*)(VALUE,  VALUE,  struct _Out *) {aka int (*)(long unsigned int,  long unsigned int,  struct _Out *)}
+In file included from /home/zapotek/arachni-build/arachni/.system/usr/include/ruby-2.7.0/ruby/ruby.h:2150,
+                 from /home/zapotek/arachni-build/arachni/.system/usr/include/ruby-2.7.0/ruby.h:33,
+                 from oj.h:18,
+                 from wab.c:12:
+/home/zapotek/arachni-build/arachni/.system/usr/include/ruby-2.7.0/ruby/intern.h:558:29: note: expected ‘int (*)(VALUE,  VALUE,  VALUE)’ {aka ‘int (*)(long unsigned int,  long unsigned int,  long unsigned int)’} but argument is of type ‘int (*)(VALUE,  VALUE,  struct _Out *)’ {aka ‘int (*)(long unsigned int,  long unsigned int,  struct _Out *)’}
+  558 | void rb_hash_foreach(VALUE, int (*)(VALUE, VALUE, VALUE), VALUE);
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+linking shared-object oj/oj.so
+
+current directory: /home/zapotek/arachni-build/arachni/.system/gems/gems/oj-3.6.5/ext/oj
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 oj.so ./.gem.20220529-613484-ek4cxw/oj

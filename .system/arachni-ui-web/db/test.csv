@@ -1,0 +1,133 @@
+1,direct,0,,,1,,127.0.0.1:58150,87e237df7ad661d3ecf0a8ca96714237,3,https://momentsandmemories.in,"",,aborted,"---
+:http:
+  :request_count: 265
+  :response_count: 265
+  :time_out_count: 49
+  :total_responses_per_second: 0.1906028961103298
+  :burst_response_time_sum: 0
+  :burst_response_count: 0
+  :burst_responses_per_second: 0
+  :burst_average_response_time: 0
+  :total_average_response_time: 5.874844837735846
+  :max_concurrency: 8
+  :original_max_concurrency: 10
+:browser_cluster:
+  :seconds_per_job: 2.0
+  :total_job_time: 32
+  :queued_job_count: 17
+  :completed_job_count: 16
+  :time_out_count: 0
+:runtime: 1179.037805326
+:found_pages: 17
+:audited_pages: 17
+:current_page: https://momentsandmemories.in/folder.php?id=16
+:messages: []
+","---
+- 1872361594
+",,1,"2024-02-23 23:10:17.145417",,"2024-02-23 22:50:35.619578","2024-02-23 23:10:17.154015","2024-02-23 22:50:36.826669",2,0,,
+2,direct,0,,,1,,127.0.0.1:27205,519f567dc4ae2bcbc8fc0a9951794440,1,https://juice-shop.herokuapp.com/,"",,completed,"---
+:http:
+  :request_count: 1747
+  :response_count: 1747
+  :time_out_count: 0
+  :total_responses_per_second: 17.77320568191744
+  :burst_response_time_sum: 0
+  :burst_response_count: 0
+  :burst_responses_per_second: 0
+  :burst_average_response_time: 0
+  :total_average_response_time: 0.44219243846594186
+  :max_concurrency: 10
+  :original_max_concurrency: 10
+:browser_cluster:
+  :seconds_per_job: 15.4375
+  :total_job_time: 247
+  :queued_job_count: 16
+  :completed_job_count: 16
+  :time_out_count: 0
+:runtime: 113.750196463
+:found_pages: 1
+:audited_pages: 3
+:current_page: https://juice-shop.herokuapp.com/
+:messages:
+- Waiting for the plugins to finish.
+","---
+- 1212796637
+- 4006210711
+- 2110778142
+- 1341561349
+- 1287571886
+- 3321786982
+",,1,"2024-03-11 16:04:41.629986",,"2024-03-11 16:02:46.141192","2024-03-11 16:04:41.745211","2024-03-11 16:02:47.695425",3,0,,
+1,"àßoptionsçØbrowser_clusterä≠local_storageÄØsession_storageÄ±wait_for_elementsÄØwait_for_timers¬©pool_size´job_timeout<≥worker_time_to_liveÃ˙≠ignore_images¬¨screen_widthÕ@≠screen_heightÕ∞©datastoreÅ•tokenŸ 87e237df7ad661d3ecf0a8ca96714237§httpâ™user_agentƒ$Mozilla/5.0 (Gecko) Arachni/v1.6.1.3Ørequest_timeoutÕN ∂request_redirect_limit≥request_concurrency
+≤request_queue_size2Ørequest_headersÄ±response_max_sizeŒ","---
+https://momentsandmemories.in/: 200
+https://momentsandmemories.in/index.php: 200
+https://momentsandmemories.in/folder.php?id=2: 200
+https://momentsandmemories.in/folder.php?id=5: 200
+https://momentsandmemories.in/folder.php?id=6: 200
+https://momentsandmemories.in/folder.php?id=3: 200
+https://momentsandmemories.in/folder.php?id=4: 200
+https://momentsandmemories.in/folder.php?id=7: 200
+https://momentsandmemories.in/folder.php?id=8: 200
+https://momentsandmemories.in/folder.php?id=9: 200
+https://momentsandmemories.in/folder.php?id=10: 200
+https://momentsandmemories.in/folder.php?id=11: 200
+https://momentsandmemories.in/folder.php?id=13: 200
+https://momentsandmemories.in/folder.php?id=14: 200
+https://momentsandmemories.in/folder.php?id=12: 200
+https://momentsandmemories.in/folder.php?id=15: 200
+https://momentsandmemories.in/folder.php?id=16: 200
+",1,"2024-02-23 23:10:16.937758","2024-02-23 23:10:16.937758"
+2,"àßoptionsçØbrowser_clusterä≠local_storageÄØsession_storageÄ±wait_for_elementsÄØwait_for_timers¬©pool_size´job_timeout<≥worker_time_to_liveÃ˙≠ignore_images¬¨screen_widthÕ@≠screen_heightÕ∞©datastoreÅ•tokenŸ 519f567dc4ae2bcbc8fc0a9951794440§httpâ™user_agentƒ$Mozilla/5.0 (Gecko) Arachni/v1.6.1.3Ørequest_timeoutÕN ∂request_redirect_limit≥request_concurrency
+≤request_queue_size2Ørequest_headersÄ±response_max_sizeŒ","---
+https://juice-shop.herokuapp.com/: 200
+",2,"2024-03-11 16:04:41.695086","2024-03-11 16:04:41.695086"
+1,"àßoptionsçØbrowser_clusterä≠local_storageÄØsession_storageÄ±wait_for_elementsÄØwait_for_timers¬©pool_size´job_timeout<≥worker_time_to_liveÃ˙≠ignore_images¬¨screen_widthÕ@≠screen_heightÕ∞©datastoreÅ•tokenŸ 87e237df7ad661d3ecf0a8ca96714237§httpâ™user_agentƒ$Mozilla/5.0 (Gecko) Arachni/v1.6.1.3Ørequest_timeoutÕN ∂request_redirect_limit≥request_concurrency
+≤request_queue_size2Ørequest_headersÄ±response_max_sizeŒ","---
+https://momentsandmemories.in/: 200
+https://momentsandmemories.in/index.php: 200
+https://momentsandmemories.in/folder.php?id=2: 200
+https://momentsandmemories.in/folder.php?id=5: 200
+https://momentsandmemories.in/folder.php?id=6: 200
+https://momentsandmemories.in/folder.php?id=3: 200
+https://momentsandmemories.in/folder.php?id=4: 200
+https://momentsandmemories.in/folder.php?id=7: 200
+https://momentsandmemories.in/folder.php?id=8: 200
+https://momentsandmemories.in/folder.php?id=9: 200
+https://momentsandmemories.in/folder.php?id=10: 200
+https://momentsandmemories.in/folder.php?id=11: 200
+https://momentsandmemories.in/folder.php?id=13: 200
+https://momentsandmemories.in/folder.php?id=14: 200
+https://momentsandmemories.in/folder.php?id=12: 200
+https://momentsandmemories.in/folder.php?id=15: 200
+https://momentsandmemories.in/folder.php?id=16: 200
+",1,"2024-02-23 23:10:16.937758","2024-02-23 23:10:16.937758"
+2,"àßoptionsçØbrowser_clusterä≠local_storageÄØsession_storageÄ±wait_for_elementsÄØwait_for_timers¬©pool_size´job_timeout<≥worker_time_to_liveÃ˙≠ignore_images¬¨screen_widthÕ@≠screen_heightÕ∞©datastoreÅ•tokenŸ 519f567dc4ae2bcbc8fc0a9951794440§httpâ™user_agentƒ$Mozilla/5.0 (Gecko) Arachni/v1.6.1.3Ørequest_timeoutÕN ∂request_redirect_limit≥request_concurrency
+≤request_queue_size2Ørequest_headersÄ±response_max_sizeŒ","---
+https://juice-shop.herokuapp.com/: 200
+",2,"2024-03-11 16:04:41.695086","2024-03-11 16:04:41.695086"
+1,Administrator,admin@admin.admin,$2a$10$iXcU51laERi7ZSTg6kZ7ruNCtM3TNNx5TxrGReHNzVG5jH/gvQpwu,,,,11,"2024-03-21 16:54:02.825476","2024-03-21 15:59:23.373483",127.0.0.1,127.0.0.1,"2022-05-29 04:39:51.210539","2024-03-21 16:54:02.825728"
+2,"Regular User",user@user.user,$2a$10$mfpCy/K1dNd8RbAdedzD6ubp1S/JKX0XjHQv.GN2yLEZAnA.DHOCW,,,,3,"2024-03-20 19:29:23.924005","2024-03-16 17:50:22.115896",127.0.0.1,127.0.0.1,"2022-05-29 04:39:51.319954","2024-03-20 19:29:23.924336"
+ar_internal_metadata  profiles_users        scans_users         
+comments              reports               schedules           
+dispatchers           roles                 schema_migrations   
+dispatchers_users     scan_groups           settings            
+issues                scan_groups_scans     users               
+notifications         scan_groups_users     users_roles         
+profiles              scans               
+1,Administrator,admin@admin.admin,$2a$10$iXcU51laERi7ZSTg6kZ7ruNCtM3TNNx5TxrGReHNzVG5jH/gvQpwu,,,,11,"2024-03-21 16:54:02.825476","2024-03-21 15:59:23.373483",127.0.0.1,127.0.0.1,"2022-05-29 04:39:51.210539","2024-03-21 16:54:02.825728"
+2,"Regular User",user@user.user,$2a$10$mfpCy/K1dNd8RbAdedzD6ubp1S/JKX0XjHQv.GN2yLEZAnA.DHOCW,,,,3,"2024-03-20 19:29:23.924005","2024-03-16 17:50:22.115896",127.0.0.1,127.0.0.1,"2022-05-29 04:39:51.319954","2024-03-20 19:29:23.924336"
+ar_internal_metadata  profiles_users        scans_users         
+comments              reports               schedules           
+dispatchers           roles                 schema_migrations   
+dispatchers_users     scan_groups           settings            
+issues                scan_groups_scans     users               
+notifications         scan_groups_users     users_roles         
+profiles              scans               
+ar_internal_metadata  profiles_users        scans_users         
+comments              reports               schedules           
+dispatchers           roles                 schema_migrations   
+dispatchers_users     scan_groups           settings            
+issues                scan_groups_scans     users               
+notifications         scan_groups_users     users_roles         
+profiles              scans               

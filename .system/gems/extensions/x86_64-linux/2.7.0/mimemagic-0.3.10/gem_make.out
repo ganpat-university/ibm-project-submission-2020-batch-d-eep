@@ -1,0 +1,3 @@
+current directory: /home/zapotek/arachni-build/arachni/.system/gems/gems/mimemagic-0.3.10/ext/mimemagic
+/home/zapotek/arachni-build/arachni/.system/usr/bin/ruby -I/home/zapotek/arachni-build/arachni/.system/usr/lib/ruby/site_ruby/2.7.0 -rrubygems /home/zapotek/arachni-build/arachni/.system/gems/gems/rake-13.0.6/exe/rake RUBYARCHDIR\=/home/zapotek/arachni-build/arachni/.system/gems/extensions/x86_64-linux/2.7.0/mimemagic-0.3.10 RUBYLIBDIR\=/home/zapotek/arachni-build/arachni/.system/gems/extensions/x86_64-linux/2.7.0/mimemagic-0.3.10
+mkdir -p /home/zapotek/arachni-build/arachni/.system/gems/extensions/x86_64-linux/2.7.0/mimemagic-0.3.10/mimemagic
